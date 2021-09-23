@@ -1,0 +1,23 @@
+MODEL:
+  NUM_CLASSES: 21
+INPUT:
+  IMAGE_SIZE: 300
+DATASETS:
+  TRAIN: ("voc_2007_trainval", "voc_2012_trainval")
+  TEST: ("voc_2007_test", )
+SOLVER:
+  MAX_ITER: 70000
+  LR_STEPS: [80000, 100000]
+  GAMMA: 0.1
+  BATCH_SIZE: 1
+  LR: 1e-6
+
+  VARIATION: 1.0
+  ADAIN_STATE: '/content/AdaIN/Pytorch_AdaIN-master/pretrained_model/model_state.pth'
+  STYLE_PATH: '/content/SSD/datasets/clipart/JPEGImages'
+
+DATA_LOADER:
+  NUM_WORKERS: 0
+
+
+OUTPUT_DIR: '/content/drive/MyDrive/ML_Project/SSD/outputs/vgg_ssd300_voc0712_variationV3'
