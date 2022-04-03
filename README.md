@@ -2,7 +2,7 @@
 # Pascal VOC to Clipart1k using SSD one shot detector
 
 This repository implements [SSD (Single Shot MultiBox Detector)](https://arxiv.org/abs/1512.02325). 
-We used [this implementation](https://github.com/lufficc/SSD) of SSD and [AdaIN](https://github.com/irasin/Pytorch_AdaIN) for style Transfer 
+We used [this implementation](https://github.com/lufficc/SSD) of SSD and  [this implementation](https://github.com/irasin/Pytorch_AdaIN) for AdaIN style Transfer 
 
 <div align="center">
   <img src="figures/004545.jpg" width="500px" />
