@@ -43,12 +43,7 @@ We used [this implementation](https://github.com/lufficc/SSD) of SSD and [AdaIN]
 ```bash
 git clone https://github.com/lufficc/SSD.git
 cd SSD
-# Required packages: torch torchvision yacs tqdm opencv-python vizer
 pip install -r requirements.txt
-
-# Done! That's ALL! No BUILD! No bothering SETUP!
-
-# It's recommended to install the latest release of torch and torchvision.
 ```
 
 
