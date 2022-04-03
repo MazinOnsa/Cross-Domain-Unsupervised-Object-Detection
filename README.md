@@ -1,7 +1,8 @@
-# Unsupervised cross-domain object detection based on SSD in PyTorch 1.0
+# Unsupervised Domain Adaptation (UDA) object detection 
+# Pascal VOC to ClipART1k using SSD one shot detector
 
-
-This repository implements [SSD (Single Shot MultiBox Detector)](https://arxiv.org/abs/1512.02325). The basecode is heavely influenced by [this implementation](https://github.com/lufficc/SSD) and the Domain Transfer rely on [AdaIN](https://github.com/irasin/Pytorch_AdaIN) 
+This repository implements [SSD (Single Shot MultiBox Detector)](https://arxiv.org/abs/1512.02325). 
+We used [this implementation](https://github.com/lufficc/SSD) of SSD and [AdaIN](https://github.com/irasin/Pytorch_AdaIN) for style Transfer 
 
 <div align="center">
   <img src="figures/004545.jpg" width="500px" />
