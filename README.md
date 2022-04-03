@@ -1,4 +1,4 @@
-# Unsupervised Domain Adaptation (UDA) object detection 
+# Unsupervised Domain Adaptation (UDA) for object detection applications 
 # Pascal VOC to Clipart1k using SSD one shot detector
 
 This repository implements [SSD (Single Shot MultiBox Detector)](https://arxiv.org/abs/1512.02325). 
