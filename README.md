@@ -5,6 +5,13 @@ This repository implements [SSD (Single Shot MultiBox Detector)](https://arxiv.o
 We used [this implementation](https://github.com/lufficc/SSD) of SSD and  [this implementation](https://github.com/irasin/Pytorch_AdaIN) for AdaIN style Transfer 
 
 <div align="center">
+  <img src="LaTeX (usong CVPR 2018 Template)/Images/variation_architecture.jpg" width="500px" />
+  <p>Example SSD output (vgg_ssd300_voc0712).</p>
+</div>
+
+
+
+<div align="center">
   <img src="figures/004545.jpg" width="500px" />
   <p>Example SSD output (vgg_ssd300_voc0712).</p>
 </div>
