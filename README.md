@@ -3,15 +3,17 @@
 
 We present a framework for real-time Unsupervised Domain Adaptation (UDA) for object detection. We start from a fully supervised [SSD (Single Shot MultiBox Detector)](https://arxiv.org/abs/1512.02325)  trained on a source domain (e.g., natural image) composed of instance-level annotated images and progressively adapt the detector using unsupervised images from a target domain (e.g., artwork). Our framework performs fine-tuning without previously translated samples, achieving a fast and versatile domain adaptation. We also improve the mean average precision (mAP) compared to other domain translation methods.
 
-**suggested framework**
+**framework**
 <div align="center">
   <img src="LaTeX (usong CVPR 2018 Template)/Images/variation_architecture.jpg" width="500px" />
 </div>
 
 
+**Implementation**
+
 <div align="center">
 
-|Task|  Type | Implementation |
+|Task|  Choise | Implementation |
 |:--:| :-------------: | :-------------: |
 |OD| SSD  | [lufficc](https://github.com/lufficc/SSD)  |
 |Style transfer| AdaIN  | [irasin](https://github.com/irasin/Pytorch_AdaIN)  |
