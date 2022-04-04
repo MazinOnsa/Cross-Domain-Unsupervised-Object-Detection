@@ -6,9 +6,8 @@ We used [this implementation](https://github.com/lufficc/SSD) of SSD and  [this 
 
 <div align="center">
   <img src="LaTeX (usong CVPR 2018 Template)/Images/variation_architecture.jpg" width="500px" />
-  <p>Example SSD output (vgg_ssd300_voc0712).</p>
+  <p>Implemented framework.</p>
 </div>
-
 
 
 <div align="center">
