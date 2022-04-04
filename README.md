@@ -5,7 +5,7 @@ We present a framework for real-time Unsupervised Domain Adaptation (UDA) for ob
 
 **framework**
 <div align="center">
-  <img src="LaTeX (usong CVPR 2018 Template)/Images/variation_architecture.jpg" width="500px" />
+  <img src="LaTeX Report (CVPR 2018 Template)/Images/variation_architecture.jpg" width="500px" />
 </div>
 
 
