@@ -1,13 +1,23 @@
 # Unsupervised Domain Adaptation (UDA) for object detection applications 
 # Pascal VOC to Clipart1k using SSD one shot detector
 
-This repository implements [SSD (Single Shot MultiBox Detector)](https://arxiv.org/abs/1512.02325). 
-We used [this implementation](https://github.com/lufficc/SSD) of SSD and  [this implementation](https://github.com/irasin/Pytorch_AdaIN) for AdaIN style Transfer 
+We present a framework for real-time Unsupervised Domain Adaptation (UDA) for object detection. We start from a fully supervised [SSD (Single Shot MultiBox Detector)](https://arxiv.org/abs/1512.02325)  trained on a source domain (e.g., natural image) composed of instance-level annotated images and progressively adapt the detector using unsupervised images from a target domain (e.g., artwork). Our framework performs fine-tuning without previously translated samples, achieving a fast and versatile domain adaptation. We also improve the mean average precision (mAP) compared to other domain translation methods.
 
+**suggested framework**
 <div align="center">
   <img src="LaTeX (usong CVPR 2018 Template)/Images/variation_architecture.jpg" width="500px" />
-  <p>Implemented framework.</p>
 </div>
+
+
+<div align="center">
+
+|Task|  Type | Implementation |
+|:--:| :-------------: | :-------------: |
+|OD| SSD  | [lufficc](https://github.com/lufficc/SSD)  |
+|Style transfer| AdaIN  | [irasin](https://github.com/irasin/Pytorch_AdaIN)  |
+|Source Domain| natural | PASCAL VOC |
+|Target Domain| artistic | Clipart1k |.
+</div>.
 
 
 <div align="center">
