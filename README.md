@@ -34,7 +34,7 @@ We present a framework for real-time Unsupervised Domain Adaptation (UDA) for ob
 
 
 
-## Features
+## SSD Features
 
 - **PyTorch 1.0**: Support PyTorch 1.0 or higher.
 - **Multi-GPU training and inference**: We use `DistributedDataParallel`, you can train or test with arbitrary GPU(s), the training schema will change accordingly.
@@ -45,6 +45,7 @@ We present a framework for real-time Unsupervised Domain Adaptation (UDA) for ob
 - **Evaluating during training**: eval you model every `eval_step` to check performance improving or not.
 - **Metrics Visualization**: visualize metrics details in tensorboard, like AP, APl, APm and APs for COCO dataset or mAP and 20 categories' AP for VOC dataset.
 - **Auto download**: load pre-trained weights from URL and cache it.
+
 ## Installation
 ### Requirements
 
