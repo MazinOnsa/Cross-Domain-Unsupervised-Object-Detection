@@ -118,8 +118,8 @@ python -m torch.distributed.launch --nproc_per_node=$NGPUS test.py --config-file
 
 
 ### Results summary
-• the proposed framework leverages the accuracy of the baseline FSD by approximately 10 to 12 percentage points in terms of mAP 
-• In comparison against the best performing unsupervised domain mapping algorithms in the cross domain adaptive detection, our framework outperforms these algorithms by 4 to 5 percentage points.
-• In addition to the best performances related to mAP, we stated a relevant reduction in terms of DT time.
+- the proposed framework leverages the accuracy of the baseline FSD by approximately 10 to 12 percentage points in terms of mAP
+- In comparison against the best performing unsupervised domain mapping algorithms in the cross domain adaptive detection, our framework outperforms these algorithms by 4 to 5 percentage points
+- In addition to the best performances related to mAP, we stated a relevant reduction in terms of DT time.
 
 The code is available at 
