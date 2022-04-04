@@ -34,7 +34,7 @@ We present a framework for real-time Unsupervised Domain Adaptation (UDA) for ob
 
 
 
-## Highlights
+## Features
 
 - **PyTorch 1.0**: Support PyTorch 1.0 or higher.
 - **Multi-GPU training and inference**: We use `DistributedDataParallel`, you can train or test with arbitrary GPU(s), the training schema will change accordingly.
